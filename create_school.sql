@@ -1,0 +1,7 @@
+CREATE TABLE `school` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `capacity` INTEGER NULL,
+  `country` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`)
+);
